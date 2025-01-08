@@ -1,7 +1,7 @@
 # **AI-Powered Recruitment Assistant**
 
 ## **Project Overview**  
-The **LLaMA-Powered Recruitment Assistant** is an AI-driven tool designed to optimize the recruitment process. Leveraging the **LLaMA model**, LangChain, and ChatGroq, this system extracts key details such as job roles, required skills, and experience levels from job descriptions. It integrates **ChromaDB** for semantic portfolio matching and real-time feedback, while an interactive **Streamlit** interface provides seamless functionality for job input, portfolio matching, and automated email generation.  
+The **Ai-Powered Recruitment Assistant** is an AI-driven tool designed to optimize the recruitment process. Leveraging the **LLaMA model**, LangChain, and ChatGroq, this system extracts key details such as job roles, required skills, and experience levels from job descriptions. It integrates **ChromaDB** for semantic portfolio matching and real-time feedback, while an interactive **Streamlit** interface provides seamless functionality for job input, portfolio matching, and automated email generation.  
 
 ## **Features**  
 1. **Job Description Analysis**:  
@@ -37,5 +37,17 @@ Ensure you have the following installed:
 ### **Installation Steps**  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-repository-name/recruitment-assistant.git
+   git clone https://github.com/Riya2624/AI-Powered-Recruitment-Assistant.git
    cd recruitment-assistant
+2.Install dependencies:
+    pip install -r requirements.txt
+3.Download and set up the LLaMA model:
+Follow instructions from Hugging Face's LLaMA model to download the weights and tokenizer.
+4.Run the application:
+streamlit run app.py
+
+### **Usage**
+1.Upload a job description through the Streamlit interface.
+2.The tool extracts roles, skills, and experience details.
+3.View matched candidate portfolios using semantic search powered by ChromaDB.
+4.Automatically generate customized emails for shortlisted candidates.
